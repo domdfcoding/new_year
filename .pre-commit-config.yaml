@@ -34,7 +34,7 @@ repos:
     - id: python-use-type-annotations
 
  - repo: https://github.com/asottile/pyupgrade
-   rev: v2.12.0
+   rev: v2.14.0
    hooks:
     - id: pyupgrade
       args: [--py36-plus]
@@ -53,7 +53,7 @@ repos:
       args: ["--in-place", "--exclude *.pyi"]
 
  - repo: https://github.com/Lucas-C/pre-commit-hooks
-   rev: v1.1.9
+   rev: v1.1.10
    hooks:
     - id: forbid-crlf
     - id: remove-crlf
