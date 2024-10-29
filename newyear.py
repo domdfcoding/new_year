@@ -48,7 +48,7 @@ print(time.time())
 chunk = 1024
 
 # open the file for reading.
-wf = wave.open(filename, 'rb')
+wf = wave.open(filename, "rb")
 
 # create an audio object
 p = pyaudio.PyAudio()
